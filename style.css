@@ -1,0 +1,55 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+
+}
+.logo{
+    color: chocolate;
+    font-weight: bold;
+}
+.topnav{
+background-color: dimgray;
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+align-items: center;
+text-align: center;
+padding-left: 10px;
+}
+ul li{
+list-style-type: none;
+display: inline-block;
+position: relative;
+}
+ul li a{
+text-decoration: none;
+color: white;
+padding: 16px 10px;
+display: block;
+
+}
+ul li a:hover{
+   background-color: chocolate;
+    
+    }
+ul li ul.dropdown{
+    position: absolute;
+    background-color: black;
+    display: none;
+    
+}
+ul li ul.dropdown li{
+    display: block;
+    border-bottom: 1px solid wheat;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+h1{
+    font-size: 80px;
+    margin-top: 20%;
+    font-weight: bold;
+    text-align: center;
+}
